@@ -1,0 +1,57 @@
+.header {
+  padding-left: 50rem;
+  padding-right: 50rem;
+  padding-bottom: 30rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50rem;
+}
+
+.header-logo {
+  font-family: "K2D", sans-serif;
+  font-size: 30rem;
+  font-weight: 700;
+  letter-spacing: 0.9rem;
+
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #f400a1 0%, #fff 100%);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 60rem;
+}
+
+.header-link {
+  color: #959595;
+  font-size: 20rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    color: #f400a1;
+  }
+}
+
+.header-button {
+  color: #fff;
+  display: inline-block;
+  font-size: 16rem;
+  font-weight: 700;
+  letter-spacing: 0.48rem;
+
+  padding: 12rem 40rem;
+  border-radius: 8rem;
+  background: #f400a1;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    background: darken(#f400a1, 20%);
+}
+}

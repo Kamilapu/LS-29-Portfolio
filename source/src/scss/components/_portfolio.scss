@@ -1,0 +1,38 @@
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-col {
+  flex: 0 1 calc((100% - 25rem * 3) / 4);
+}
+
+.portfolio {
+     padding-bottom: 100rem;
+  &__title {
+    text-align: center;
+    color: #fefefe;
+    font-size: 40rem;
+    font-weight: 700;
+    letter-spacing: 1.2rem;
+    padding-bottom: 40rem;
+  }
+}
+
+.portfolio-img {
+     border-radius: 16rem 16rem 0rem 0rem;
+}
+.portfolio-name {
+  color: #c6c6c6;
+  font-size: 16rem;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0.48rem;
+  padding: 16rem;
+  border-radius: 0px 0px 16rem 16rem;
+  background: rgba(255, 255, 255, 0.08);
+}

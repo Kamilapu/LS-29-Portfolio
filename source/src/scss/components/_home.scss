@@ -1,0 +1,125 @@
+.home {
+display: flex;
+justify-content: space-around;
+padding-top: 50rem;
+}
+.home-info {
+  /* background-image: url(./img/background-vector.svg); */
+
+  &__hi {
+    color: #707070;
+    font-size: 24rem;
+    font-weight: 600;
+    letter-spacing: 0.72rem;
+    padding-bottom: 10rem;
+  }
+
+  &__name {
+    color: #959595;
+    font-size: 28rem;
+    font-weight: 700;
+    letter-spacing: 0.84rem;
+    padding-bottom: 24rem;
+  }
+
+  &__prof {
+    font-size: 63rem; /* 70rem; */
+    font-weight: 900;
+    letter-spacing: -1.9rem;
+
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(20deg, #f400a1 0%, #fff 100%);
+    padding-bottom: 33rem;
+  }
+}
+
+.social {
+  display: flex;
+  gap: 20rem;
+ 
+
+  &__link {
+    display: inline-flex;
+    border: 1rem solid #959595;
+    padding: 10rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.04);
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home-button {
+  display: flex;
+  gap: 24rem;
+  padding-bottom: 60rem;
+
+  &__call-me {
+    color: white;
+    font-size: 20rem;
+    font-weight: 700;
+    letter-spacing: 0.6rem;
+
+    display: inline-block;
+    padding: 12rem 24rem;
+    border-radius: 8rem;
+    border: 2px solid white;
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+      background: darken(#f400a1, 20%);
+  }
+  }
+
+  &__mail-me {
+    color: white;
+    font-size: 20rem;
+    font-weight: 700;
+    letter-spacing: 0.6rem;
+
+    padding: 12rem 24rem;
+    display: inline-block;
+    border-radius: 8rem;
+    border: 2px solid white;
+
+    transition: 0.3s all ease-in-out;
+
+    &:hover {
+      background: darken(#f400a1, 20%);
+  }
+  }
+}
+
+.info-block {
+  display: inline-flex;
+  background-color: rgba(255, 255, 255, 0.04);
+  gap: 30rem;
+  border-radius: 8rem;
+  padding: 24rem;
+  margin-bottom: 60rem;
+
+  &__half {
+    display: flex;
+    flex-direction: column;
+    gap: 12rem;
+  }
+
+  &__number {
+    color: #f400a1;
+    font-size: 24rem;
+    font-weight: 800;
+    letter-spacing: 0.72rem;
+  }
+
+  &__name {
+    color: #dfdfdf;
+    font-size: 20rem;
+    font-weight: 700;
+    letter-spacing: 0.6rem;
+  }
+}
+
+.my-photo {
+  
+}

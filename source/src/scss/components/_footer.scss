@@ -1,0 +1,36 @@
+.footer {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+
+  padding-top: 20rem;
+  padding-bottom: 30rem;
+}
+
+.footer-logo {
+  padding-bottom: 50rem;
+}
+
+.footer-social {
+  justify-content: center;
+  padding-bottom: 50rem;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40rem;
+
+  font-size: 20rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+
+  &__mail,
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 14rem;
+
+    color: #959595;
+  }
+}

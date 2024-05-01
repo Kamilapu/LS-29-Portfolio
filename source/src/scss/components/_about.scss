@@ -1,0 +1,75 @@
+.about {
+  padding-top: 100rem;
+}
+
+.text {
+  text-align: center;
+  &__title {
+    color: #fefefe;
+    font-size: 40rem;
+    font-weight: 700;
+    letter-spacing: 1.2rem;
+    padding-bottom: 18rem;
+  }
+
+  &__desc {
+    color: #707070;
+    font-size: 20rem;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: 0.6rem;
+    padding-bottom: 40rem;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 100rem;
+  padding-left: 70rem;
+  padding-right: 70rem;
+
+  &__description {
+    color: #959595;
+    font-size: 20rem;
+    font-weight: 500;
+    line-height: 190%;
+  }
+}
+
+.skills {
+  text-align: center;
+  padding-top: 50rem;
+  padding-bottom: 50rem;
+
+  &__my-skills {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(50deg, #f400a1 40%, #fff 100%);
+    padding-bottom: 20rem;
+  }
+
+  &__img-skills {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2rem white solid;
+    border-bottom: 2rem white solid;
+  }
+
+  &__name {
+    color: #959595;
+    font-size: 24rem;
+    font-weight: 700;
+    
+  }
+
+  &__skill {
+    padding: 10rem;
+  }
+}
+
+.fixed {
+  position: fixed;
+  bottom: 5rem;
+  right: 10rem;
+}

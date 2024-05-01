@@ -1,0 +1,26 @@
+html, body {
+	height: 100%;
+}
+body {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.main {
+	padding-left: 50rem;
+	padding-right: 50rem;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+/* .container {
+	max-width: 1100px;
+	margin-inline: auto;
+}
+.main {
+	padding: 20px;
+} */
