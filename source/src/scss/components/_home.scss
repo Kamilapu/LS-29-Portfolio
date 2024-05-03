@@ -7,7 +7,7 @@
   @include mobile {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    justify-content: center;
 
     padding-top: 10rem;
   }
@@ -140,7 +140,7 @@
   @include tablet-small {
     margin-bottom: 30rem;
   }
-
+  
   &__half {
     display: flex;
     flex-direction: column;

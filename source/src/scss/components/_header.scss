@@ -7,8 +7,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 50rem;
-
-  }
+}
 
 .header-logo {
   font-family: "K2D", sans-serif;
@@ -17,7 +16,10 @@
   letter-spacing: 0.9rem;
 
   @include mobile {
-  font-size: 22rem;
+    font-size: 22rem;
+  }
+  @include mobile-small {
+    font-size: 15rem;
   }
 
   color: transparent;
@@ -42,10 +44,7 @@
     color: #f400a1;
   }
 
-  @include tablet-small {
-    display: none;
-  }
-  @include mobile {
+  @include tablet {
     display: none;
   }
 }
@@ -63,7 +62,14 @@
   cursor: pointer;
   transition: 0.3s all ease-in-out;
 
+  @include mobile-small {
+    font-size: 16rem;
+    font-weight: 500;
+    flex-shrink: 0;
+    padding: 6rem 10rem;
+  }
+
   &:hover {
     background: darken(#f400a1, 20%);
-}
+  }
 }

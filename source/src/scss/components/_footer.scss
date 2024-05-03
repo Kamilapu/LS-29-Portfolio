@@ -20,10 +20,16 @@
   align-items: center;
   justify-content: center;
   gap: 40rem;
-
+ 
   font-size: 20rem;
   font-weight: 700;
   letter-spacing: 0.6rem;
+
+  @include mobile-small {
+    display: flex;
+    flex-direction: column;
+  font-size: 15rem;
+  }
 
   &__mail,
   &__phone {

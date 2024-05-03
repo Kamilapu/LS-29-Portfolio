@@ -5,6 +5,7 @@
 
   @include tablet-small {
     gap: 20rem;
+    justify-content: center;
   }
 }
 
@@ -51,6 +52,9 @@
 
     @include tablet {
       padding-bottom: 30rem;
+    }
+    @include mobile {
+    font-size: 15rem;
     }
   }
 }
