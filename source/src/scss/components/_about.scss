@@ -25,15 +25,26 @@
 .hero {
   display: flex;
   align-items: center;
-  gap: 100rem;
+  gap: 80rem;
   padding-left: 70rem;
   padding-right: 70rem;
+
+  &__img {
+    max-width: fit-content;
+  }
 
   &__description {
     color: #959595;
     font-size: 20rem;
     font-weight: 500;
     line-height: 190%;
+    text-align: justify;
+  }
+
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
   }
 }
 
@@ -60,16 +71,24 @@
     color: #959595;
     font-size: 24rem;
     font-weight: 700;
-    
   }
 
   &__skill {
     padding: 10rem;
+
+    @include mobile {
+      padding: 2rem;
+    }
   }
 }
 
 .fixed {
   position: fixed;
-  bottom: 5rem;
-  right: 10rem;
+  bottom: 20rem;
+  right: 20rem;
+
+  @include tablet-small {
+    bottom: 50rem;
+    right: 20rem;
+  }
 }

@@ -32,5 +32,10 @@
     gap: 14rem;
 
     color: #959595;
+
+    @include mobile {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
   }
 }

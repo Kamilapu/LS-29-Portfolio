@@ -7,13 +7,18 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 50rem;
-}
+
+  }
 
 .header-logo {
   font-family: "K2D", sans-serif;
   font-size: 30rem;
   font-weight: 700;
   letter-spacing: 0.9rem;
+
+  @include mobile {
+  font-size: 22rem;
+  }
 
   color: transparent;
   background-clip: text;
@@ -35,6 +40,13 @@
 
   &:hover {
     color: #f400a1;
+  }
+
+  @include tablet-small {
+    display: none;
+  }
+  @include mobile {
+    display: none;
   }
 }
 
