@@ -1,5 +1,6 @@
-html, body {
-	height: 100%;
+html,
+body {
+  height: 100%;
 }
 /* body {
 	display: grid;
@@ -7,14 +8,22 @@ html, body {
 } */
 
 .main {
-	padding-left: 50rem;
-	padding-right: 50rem;
+  padding-left: 50rem;
+  padding-right: 50rem;
+
+  max-width: 1430rem;
+  margin-inline: auto;
+
+  @include mobile {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
 }
 
 a {
-	text-decoration: none;
-	color: white;
-	cursor: pointer;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 
 /* .container {

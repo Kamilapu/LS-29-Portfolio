@@ -29,9 +29,8 @@
 .hero {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 80rem;
-  padding-left: 70rem;
-  padding-right: 70rem;
 
   @include mobile-small {
     padding-left: 0rem;
@@ -78,11 +77,13 @@
   &__img-skills {
     display: flex;
     justify-content: space-between;
-    border-top: 2rem white solid;
-    border-bottom: 2rem white solid;
+    border-top: 3rem hsl(0, 0%, 58%) solid;
+    border-bottom: 3rem hsl(0, 0%, 58%) solid;
 
-    @include mobile-small {
-      display: block;
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15rem;
     }
   }
 

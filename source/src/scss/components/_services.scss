@@ -34,6 +34,10 @@
   padding-top: 50rem;
   }
 
+  @include mobile {
+    padding-top: 0rem;
+  }
+
   &__title {
     color: #fefefe;
     font-size: 40rem;

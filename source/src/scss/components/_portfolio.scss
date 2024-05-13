@@ -7,16 +7,19 @@
   align-items: center;
 
   @include mobile {
-    gap:25rem;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    justify-content: start;
+    gap: 15rem;
+    }
   }
-}
 
 .portfolio-col {
   flex: 0 1 calc((100% - 25rem * 3) / 4);
 }
 
 .portfolio {
-     padding-bottom: 100rem;
+  padding-bottom: 100rem;
   &__title {
     text-align: center;
     color: #fefefe;
@@ -28,7 +31,8 @@
 }
 
 .portfolio-img {
-     border-radius: 16rem 16rem 0rem 0rem;
+  border-radius: 16rem 16rem 0rem 0rem;
+  display: flex;
 }
 .portfolio-name {
   color: #c6c6c6;
